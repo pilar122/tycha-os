@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: palevioletred;
+}
+
+#container {
+    max-width: 800px;
+    /*height: 1000px; /*Gives the element a fixed height*/
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    /*display: flex; /*This will allow for the use of align-items property*/
+    /*align-items:center; This will center the element*/
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: normal;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea{
+    width: 100%;
+    max-width: 800px;
+    height: 200px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #aaa;
+}
+
+.message {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
+}
+
+.message p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.message .comments {
+    margin-top: 10px;
+
+}
+
+.message .comment {
+    margin-top: 10px;
+    padding: 10px;
+    border-left: 1 px solid #ccc;
+    font-size: 14px;
+}
+
+.message .comment {
+    margin: 0;
+}

@@ -1,0 +1,24 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <title>Tychaios</title>
+            <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+        <body>
+            <div id="container">
+                <h1> Anonymous Message Board</h1>
+
+                <form id ="message-form" action="/save-message.php" method="post">
+                    <textarea id="message" name="message"></textarea>
+                    <button type="submit">Post</button>
+                  </form>
+                <!-- <form id ="message-form"> -->
+                    <!-- <textarea id="message" placeholder="Write your message here"></textarea> -->
+                    <!-- <button type="submit">Post</button> -->
+                <!-- </form> -->
+                <div id="messages"></div>
+            </div>
+            <script src="Script.js"></script>
+        </body>
+    </html>
+    
